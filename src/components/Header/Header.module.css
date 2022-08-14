@@ -1,0 +1,49 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d4d4d4;
+  border-radius: 33px;
+  width: 160px;
+  cursor: pointer;
+}
+.active {
+}
+.rightimg {
+  padding: 10px;
+}
+.cartInfo {
+  display: flex;
+  align-items: center;
+  color: #274c5b;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.total {
+  margin: 1px 0px 0px 10px;
+}
+
+.totalPrice {
+  display: flex;
+  align-items: center;
+  color: #274c5b;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+}

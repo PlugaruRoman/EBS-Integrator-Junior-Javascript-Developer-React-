@@ -1,0 +1,62 @@
+.sort {
+  margin: 20px auto 0px;
+}
+
+.sortLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.selected {
+  color: #ff5634;
+  margin-left: 10px;
+  border-bottom: 2px dotted #ff5634;
+  cursor: pointer;
+}
+
+.div {
+  position: relative;
+}
+
+.active {
+  display: block;
+}
+
+.sortPopuup {
+  right: 400px;
+  position: absolute;
+  margin: 5px 0px 0px 0px;
+  background: #ff5634;
+}
+
+.list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  transition: all 0.2s linear;
+}
+.list:hover {
+  color: black;
+}
+
+.active {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: black;
+  padding: 5px 10px 5px 10px;
+  transition: all 0.2s linear;
+}
